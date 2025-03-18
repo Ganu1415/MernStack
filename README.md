@@ -1,2 +1,0 @@
-# MernStack
-Enterprices work
