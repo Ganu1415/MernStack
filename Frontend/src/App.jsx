@@ -1,14 +1,11 @@
-import { useEffect, useState } from "react";
-import API from "./api";
-import AddJob from "./pages/AddJob";
+import RouterMain from "./routes/RouterMain";
 
 function App() {
   return (
-    <div>
-      {/* <AddJob/> */}
-
-      <h1 class="text-3xl font-bold underline">Hello world!</h1>
-    </div>
+    <>
+      <h1 className="text-3xl font-bold text-center my-2" >Mern App..!</h1>
+      <RouterMain />
+    </>
   );
 }
 

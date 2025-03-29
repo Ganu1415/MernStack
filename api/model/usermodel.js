@@ -1,14 +1,8 @@
 import mongoose from "mongoose";
 
 const userSchema = new mongoose.Schema({
-  fname: {
+  companyName: {
     type: String,
-  },
-  lname: {
-    type: String,
-  },
-  mnum: {
-    type: Number,
   },
 });
 
